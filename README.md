@@ -1,6 +1,5 @@
 # Portfolio
 
-## Overview
 This portfolio showcases my work as a web developer. It includes a navbar for easy navigation, sections for home, education, skills, and projects. It is fully responsive and features various animations and interactive elements.
 
  **[View Live](https://manish-singh-ranawat.github.io/Portfolio/)**
