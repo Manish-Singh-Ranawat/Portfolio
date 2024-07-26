@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manish Singh Ranawat</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap&family=Baskervville:ital@0;1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="images/icons/logo.png" alt="logo" class="logo-img">
+        <nav>
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#education" class="nav-link">Education</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+        </nav>
+        <i class="fa-solid fa-bars" id="menu-btn"></i>
+    </header>
+
+    <main>
+
+        <!-- home -->
+        <section id="home">
+            <div class="content-wrapper">
+                <div class="intro">
+                    <div class="name">
+                        <span>Hi, I'm</span>
+                        <h1 class="animate__animated animate__bounce animate__delay-1s">Manish Singh Ranawat</h1>
+                    </div>
+                    <h2>Full Stack Developer</h2>
+                    <div class="image-mobile">
+                        <dotlottie-player src="https://lottie.host/97dc1de1-264f-458f-876c-c57e709fb363/cPSkmO4bzj.json"
+                            background="transparent" speed="1" style="width: 100%; height: 15rem;" loop
+                            autoplay></dotlottie-player>
+                    </div>
+                    <p class="description">
+                        A dedicated Computer Science student pursuing my Bachelor's degree in technology, with a growing
+                        passion for full
+                        stack development. Currently, I'm focusing on learning the <span>MERN stack</span> (MongoDB,
+                        Express.js, React,
+                        Node.js) and applying these technologies in my projects.
+                    </p>
+
+                    <!-- resume -->
+                    <a href="resume.pdf" download class="animate-on-scroll" data-animation="backInLeft">
+                        <button class="btn">Download Resume</button>
+                    </a>
+
+                    <!-- contacts -->
+                    <ul class="wrapper animate-on-scroll" data-animation="backInLeft">
+
+                        <li class="icon github">
+                            <a href="https://github.com/Manish-Singh-Ranawat" target="_blank" class="link">
+                                <span class="tooltip">GitHub</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1.2em" fill="currentColor"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.58.82-2.14-.08-.2-.36-1.01.08-2.1 0 0 .67-.21 2.2.82a7.6 7.6 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.52-1.03 2.2-.82 2.2-.82.44 1.09.16 1.9.08 2.1.51.56.82 1.27.82 2.14 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8 8 0 0 0 16 8c0-4.42-3.58-8-8-8z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+
+                        <li class="icon linkedin">
+                            <a href="https://linkedin.com/in/manish-singh-ranawat" target="_blank" class="link">
+                                <span class="tooltip">LinkedIn</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1.2em" fill="currentColor"
+                                    viewBox="0 0 448 512">
+                                    <path
+                                        d="M100.28 448H7.4V149.41h92.88zm-46.44-340a53.81 53.81 0 1 1 53.81-53.81 53.81 53.81 0 0 1-53.81 53.81zM447.9 448h-92.68V302.4c0-34.8-12.5-58.6-43.63-58.6-23.83 0-38 16-44.2 31.4-2.28 5.6-2.84 13.4-2.84 21.3V448h-92.68s1.24-251.1 0-277h92.68v39.3c-0.18 0.3-0.43 0.6-0.61 0.9h0.61v-0.9c12.33-19 34.4-46 83.64-46 61.1 0 106.9 39.9 106.9 125.5V448z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+
+                        <li class="icon gmail">
+                            <a href="mailto:manish27singhranawat@gmail.com" target="_blank" class="link">
+                                <span class="tooltip">Gmail</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1.2em" fill="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 12.713l11.985-7.99c-.019-.012-7.97-5.317-7.97-5.317-.572-.377-1.487-.376-2.059.001 0 0-7.968 5.315-7.985 5.327l11.985 7.99zm.303-.194l-12-8V20c0 1.104.896 2 2 2h20c1.104 0 2-.896 2-2V4.519l-12 8z" />
+                                </svg>
+                            </a>
+                        </li>
+
+
+                        <li class="icon whatsapp">
+                            <a href="https://wa.me/+919929630791" target="_blank" class="link">
+                                <span class="tooltip">WhatsApp</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1.2em" viewBox="0 0 16 16"
+                                    fill="currentColor">
+                                    <path
+                                        d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="image-desktop">
+                    <dotlottie-player src="https://lottie.host/97dc1de1-264f-458f-876c-c57e709fb363/cPSkmO4bzj.json"
+                        background="transparent" speed="1" style="width: 100%; height: 20rem;" loop
+                        autoplay></dotlottie-player>
+                </div>
+            </div>
+        </section>
+
+        <!-- education -->
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-container">
+
+                <div class="education-animation animate-on-scroll" data-animation="fadeInLeft">
+                    <dotlottie-player src="https://lottie.host/f1af26b0-6419-427d-924b-428b9a9b13ab/ILSp8tLJvQ.json"
+                        background="transparent" speed="1" style="width: 100%; height: 20rem;" loop
+                        autoplay></dotlottie-player>
+                </div>
+
+                <div class="education-content animate-on-scroll" data-animation="fadeInRight">
+                    <div class="education-item">
+                        <h3>Bachelor of Technology in Computer Science</h3>
+                        <p class="school">Pacific Institute of Technology, Udaipur</p>
+                        <div class="edu-details">
+                            <p class="grade">CGPA : 9.5 (last sem)</p>
+                            <p class="year">2022 - 2026</p>
+                        </div>
+                    </div>
+                    <div class="education-item">
+                        <h3>12th Grade in PCM Stream</h3>
+                        <p class="school">Ascent International Senior Secondary School, Udaipur </p>
+                        <div class="edu-details">
+                            <p class="grade">Percentage : 90.80%</p>
+                            <p class="year">2021 - 2022</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- skills -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-item animate-on-scroll" data-animation="zoomIn">
+                    <img src="images/icons/html.png" alt="image" class="skill-image">
+                    <p>HTML</p>
+                </div>
+                <div class="skill-item animate-on-scroll" data-animation="zoomIn">
+                    <img src="images/icons/css.png" alt="image" class="skill-image">
+                    <p>CSS</p>
+                </div>
+                <div class="skill-item animate-on-scroll" data-animation="zoomIn">
+                    <img src="images/icons/javascript.png" alt="image" class="skill-image">
+                    <p>Javascript</p>
+                </div>
+                <div class="skill-item animate-on-scroll" data-animation="zoomIn">
+                    <img src="images/icons/bootstrap.png" alt="image" class="skill-image">
+                    <p>Bootstrap</p>
+                </div>
+                <div class="skill-item animate-on-scroll" data-animation="zoomIn">
+                    <img src="images/icons/tailwind.png" alt="image" class="skill-image">
+                    <p>Tailwind</p>
+                </div>
+                <div class="skill-item animate-on-scroll" data-animation="zoomIn">
+                    <img src="images/icons/react.png" alt="image" class="skill-image">
+                    <p>React</p>
+                </div>
+                <div class="skill-item animate-on-scroll" data-animation="zoomIn">
+                    <img src="images/icons/nodejs.png" alt="image" class="skill-image">
+                    <p>Node.js</p>
+                </div>
+                <div class="skill-item animate-on-scroll" data-animation="zoomIn">
+                    <img src="images/icons/expressjs.png" alt="image" class="skill-image">
+                    <p>Express.js</p>
+                </div>
+                <div class="skill-item animate-on-scroll" data-animation="zoomIn">
+                    <img src="images/icons/mongodb.png" alt="image" class="skill-image">
+                    <p>MongoDB</p>
+                </div>
+                <div class="skill-item animate-on-scroll" data-animation="zoomIn">
+                    <img src="images/icons/mysql.png" alt="image" class="skill-image">
+                    <p>MySQL</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- projects -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-container">
+
+                <!-- project-1 -->
+                <div class="project-item animate-on-scroll" data-animation="jackInTheBox">
+                    <div class="carousel-container">
+                        <div class="carousel">
+                            <img src="images/projects/airbnb/image1.png" alt="Image 1" class="active">
+                            <img src="images/projects/airbnb/image2.png" alt="Image 2">
+                            <img src="images/projects/airbnb/image3.png" alt="Image 3">
+                            <img src="images/projects/airbnb/image4.png" alt="Image 4">
+                            <img src="images/projects/airbnb/image5.png" alt="Image 5">
+                            <img src="images/projects/airbnb/image6.png" alt="Image 6">
+                            <img src="images/projects/airbnb/image7.png" alt="Image 7">
+                        </div>
+                        <button class="carousel-button prev">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="carousel-button next">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <div class="carousel-indicators"></div>
+                    </div>
+                    <h3>Airbnb Clone</h3>
+                    <p class="project-description">
+                        <span class="short-description">
+                            This project is an Airbnb clone built with Express, Node.js, MongoDB, EJS, HTML, CSS,
+                            and
+                            JavaScript. It allows users to view, post, edit, and delete listings, add and delete
+                            reviews,
+                            and manage user authentication for sign-up and log-in.
+                        </span>
+                        <span class="full-description" style="display: none;">
+                            Users can search, filter, and sort listings by various categories and add new listings.
+                            The app includes a star-based rating system
+                            using Starability and integrates Cloudinary for image storage and MapTiler for
+                            displaying maps.
+                            Designed with Bootstrap, FontAwesome, and Google Icons, the website is fully responsive.
+                            The
+                            backend incorporates technologies like Mongoose, Passport, and Node Geocoder.
+                        </span>
+                        <button class="read-more-btn">Read More</button>
+                    </p>
+                    <div class="project-btns">
+                        <a href="https://airbnb-8bw3.onrender.com/" target="_blank">
+                            <button class="btn">View Live</button>
+                        </a>
+                        <a href="https://github.com/Manish-Singh-Ranawat/Airbnb" target="_blank">
+                            <button class="btn">Explore Code</button>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- project-2 -->
+                <div class="project-item animate-on-scroll" data-animation="jackInTheBox">
+                    <div class="carousel-container">
+                        <div class="carousel">
+                            <img src="images/projects/simon-game/image1.png" alt="Image 1" class="active">
+                            <img src="images/projects/simon-game/image2.png" alt="Image 2">
+                            <img src="images/projects/simon-game/image3.png" alt="Image 3">
+                        </div>
+                        <button class="carousel-button prev">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="carousel-button next">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <div class="carousel-indicators"></div>
+                    </div>
+                    <h3>Simon Memory Game</h3>
+                    <p class="project-description">
+                        <span class="short-description">
+                            The Simon Memory Game is a web-based game created with HTML, CSS, and JavaScript. Players
+                            start by clicking "START" and then watch a sequence of colors, which they must repeat in the
+                            same order. Each correct sequence advances the player to the next level, adding more colors.
+                        </span>
+                        <span class="full-description" style="display: none;">
+                            The game tracks the current and highest scores. A mistake ends the game, displaying a "Game
+                            Over" message and the final score. A reset option allows players to restart the game from
+                            the
+                            beginning.
+                        </span>
+                        <button class="read-more-btn">Read More</button>
+                    </p>
+                    <div class="project-btns">
+                        <a href="https://manish-singh-ranawat.github.io/Simon-Memory-Game/" target="_blank">
+                            <button class="btn">View Live</button>
+                        </a>
+                        <a href="https://github.com/Manish-Singh-Ranawat/Simon-Memory-Game" target="_blank">
+                            <button class="btn">Explore Code</button>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- project-3 -->
+                <div class="project-item animate-on-scroll" data-animation="jackInTheBox">
+                    <div class="carousel-container">
+                        <div class="carousel">
+                            <img src="images/projects/blog-web/image1.png" alt="Image 1" class="active">
+                            <img src="images/projects/blog-web/image2.png" alt="Image 2">
+                        </div>
+                        <button class="carousel-button prev">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="carousel-button next">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <div class="carousel-indicators"></div>
+                    </div>
+                    <h3>Blog Webpage</h3>
+                    <p class="project-description">
+                        <span class="short-description">
+                            The Blog Webpage is a visually appealing platform crafted using HTML and CSS, showcasing a
+                            collection of engaging blog posts. Each post features a captivating title, an engaging
+                            image, the author's name, publication date, and a category tag for organization.
+                        </span>
+                        <span class="full-description" style="display: none;">
+                            What makes it stand out is its responsive design, ensuring a seamless user experience across
+                            devices. The layout
+                            adapts smoothly to different screen sizes, maintaining clarity in typography and imagery.
+                        </span>
+                        <button class="read-more-btn">Read More</button>
+                    </p>
+                    <div class="project-btns">
+                        <a href="https://manish-singh-ranawat.github.io/Blog-webpage/" target="_blank">
+                            <button class="btn">View Live</button>
+                        </a>
+                        <a href="https://github.com/Manish-Singh-Ranawat/Blog-webpage.git" target="_blank">
+                            <button class="btn">Explore Code</button>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- project-4 -->
+                <div class="project-item animate-on-scroll" data-animation="jackInTheBox">
+                    <div class="carousel-container">
+                        <div class="carousel">
+                            <img src="images/projects/restaurant/image1.png" alt="Image 1" class="active">
+                            <img src="images/projects/restaurant/image2.png" alt="Image 2">
+                            <img src="images/projects/restaurant/image3.png" alt="Image 3">
+                            <img src="images/projects/restaurant/image4.png" alt="Image 4">
+                            <img src="images/projects/restaurant/image5.png" alt="Image 5">
+                            <img src="images/projects/restaurant/image6.png" alt="Image 6">
+                            <img src="images/projects/restaurant/image7.png" alt="Image 7">
+                        </div>
+                        <button class="carousel-button prev">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="carousel-button next">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <div class="carousel-indicators"></div>
+                    </div>
+                    <h3>Restaurant Landing Page</h3>
+                    <p class="project-description">
+                        <span class="short-description">
+                            This project, "Plate & Palette," presents a static landing page designed for desktop and
+                            laptop
+                            screens, showcasing a conceptual restaurant website. Created using HTML, CSS, and basic
+                            JavaScript, it emphasizes structured content with sections like Hero,
+                        </span>
+                        <span class="full-description" style="display: none;">
+                            About Us, Menu, Services, and Contact. The design focuses on visual appeal and user
+                            experience, featuring custom CSS
+                            properties and minimal interactivity through JavaScript for menu tab switching.
+                        </span>
+                        <button class="read-more-btn">Read More</button>
+                    </p>
+                    <div class="project-btns">
+                        <a href="https://manish-singh-ranawat.github.io/Restaurant-Landing-Page/" target="_blank">
+                            <button class="btn">View Live</button>
+                        </a>
+                        <a href="https://github.com/Manish-Singh-Ranawat/Restaurant-Landing-Page.git" target="_blank">
+                            <button class="btn">Explore Code</button>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- project-5 -->
+                <div class="project-item animate-on-scroll" data-animation="jackInTheBox">
+                    <div class="carousel-container">
+                        <div class="carousel">
+                            <img src="images/projects/spotify/image1.png" alt="Image 1" class="active">
+                            <img src="images/projects/spotify/image2.png" alt="Image 2">
+                        </div>
+                        <button class="carousel-button prev">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="carousel-button next">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <div class="carousel-indicators"></div>
+                    </div>
+                    <h3>Spotify Desktop Homepage</h3>
+                    <p class="project-description">
+                        <span class="short-description">
+                            This project meticulously recreates Spotify's desktop interface using HTML and CSS, tailored
+                            exclusively for laptop and PC screens. Emphasizing attention to detail and precise styling,
+                            it
+                            faithfully replicates the look and feel of Spotify's homepage.
+                        </span>
+                        <span class="full-description" style="display: none;">
+                            The design maintains a static layout that mirrors the original interface, utilizing clean
+                            and semantic HTML for structured
+                            content and CSS for accurate styling replication.
+                        </span>
+                        <button class="read-more-btn">Read More</button>
+                    </p>
+                    <div class="project-btns">
+                        <a href="https://manish-singh-ranawat.github.io/Spotify-Desktop-Home-page/" target="_blank">
+                            <button class="btn">View Live</button>
+                        </a>
+                        <a href="https://github.com/Manish-Singh-Ranawat/Spotify-Desktop-Home-page.git" target="_blank">
+                            <button class="btn">Explore Code</button>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
+
+    <hr>
+    <footer>
+        <p> &copy; 2024 Manish Singh Ranawat | All rights reserved</p>
+    </footer>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
